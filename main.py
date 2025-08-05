@@ -175,7 +175,7 @@ def main():
                 print("[Debug] save best model.")
                  
     np.save(f"{opt.outf}/train_loss.npy", EpochAcc)
-    np.save(f"{opt.outf}/valid_loss.npy", EpochValidAcc)
+    np.save(f"{opt.outf}/valid_.npy", EpochValidAcc)
     
     print("[INFO] Training logs saved.")
 

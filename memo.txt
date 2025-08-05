@@ -2,7 +2,7 @@ https://github.com/zdzdliu/PPGArrhythmiaDetection?utm_source=chatgpt.com
 
 prepareDB를 사용하여 Raw data를 길이 1000의 segment로 분할
 if segment length < 1000 : drop
-총 35,243개의 mat 파일 생성 (labels와 ppgseg로 구성)
+총 5,243개의 mat 파일 생성 (labels와 ppgseg로 구성)
 Raw data 파일 명이 af : label = 0
 Raw data 파일 명이 non_af :  label = 1
 
