@@ -81,7 +81,7 @@ def main():
 
     EpochAcc = np.empty((0, 2))         # epoch, train loss
     EpochValidAcc = np.empty((0, 2))    # epoch, validation loss
-    ValidAcc = 0.0                      # 최고 validation accuracy
+    ValidAcc = 0.0                      
 
     # Loss function
     loss_fun = nn.CrossEntropyLoss().to(device)
@@ -175,7 +175,7 @@ def main():
                 print("[Debug] save best model.")
                  
     np.save(f"{opt.outf}/train_loss.npy", EpochAcc)
-    np.save(f"{opt.outf}/valid_acc.npy", EpochValidAcc)
+    np.save(f"{opt.outf}/valid_loss.npy", EpochValidAcc)
     
     print("[INFO] Training logs saved.")
 
