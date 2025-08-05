@@ -1,0 +1,16 @@
+test data count / value count
+(5399, 1000)
+              precision    recall  f1-score   support
+
+           0     0.9638    0.8377    0.8963      2699
+           1     0.8565    0.9685    0.9091      2700
+
+    accuracy                         0.9031      5399
+   macro avg     0.9102    0.9031    0.9027      5399
+weighted avg     0.9101    0.9031    0.9027      5399
+
+Sensitivity, Specificity, Positive predictive value,Negative predictive values,Accuracy
+[0.83771767 0.96851852 0.96376812 0.85653456 0.90313021]
+[0.96851852 0.83771767 0.85653456 0.96376812 0.90313021]
+
++) confusion matrix (Figure_1)

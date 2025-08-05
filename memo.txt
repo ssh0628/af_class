@@ -1,0 +1,26 @@
+https://github.com/zdzdliu/PPGArrhythmiaDetection?utm_source=chatgpt.com
+
+prepareDB를 사용하여 Raw data를 길이 1000의 segment로 분할
+if segment length < 1000 : drop
+총 35,243개의 mat 파일 생성 (labels와 ppgseg로 구성)
+Raw data 파일 명이 af, a : label = 0
+Raw data 파일 명이 non_af, n :  label = 1
+
+train, validation, test 는 70 : 15 : 15 비율로 분할
+
+Label 0 persons count: 216
+Label 1 persons count: 219
+Train persons: 304, Valid persons: 65, Test persons: 66
+Train files: 24820, Valid files: 5024, Test files: 5399
+Train ∩ Valid: set()
+Train ∩ Test : set()
+Valid ∩ Test : set()
+Train label distribution:
+Counter({1: 153, 0: 151})
+Valid label distribution:
+Counter({1: 33, 0: 32})
+Test label distribution:
+Counter({0: 33, 1: 33})
+
+argument 수정 X
+100 epoch까지 진행
